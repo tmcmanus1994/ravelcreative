@@ -4,54 +4,41 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Project Overview
 
-<!-- TODO: Describe your project here -->
-Ravel Creative - [Add project description]
+Ravel Creative is a video content agency that partners with local businesses on monthly retainers (3/6/12 months) to handle all their video content needs — from scripting and filming to editing, ad copy, posting schedules, and ad management.
 
-## Tech Stack
+**Target clients:** Small businesses, tech startups, law firms, private practices
 
-<!-- TODO: Update with your actual tech stack -->
-- Language:
-- Framework:
-- Database:
-- Other tools:
+**Core value prop:** We don't just deliver videos — we guarantee the best use of your video content with consistent, strategic execution.
 
-## Common Commands
+## Marketing Context
 
-<!-- TODO: Add your actual commands -->
-```bash
-# Install dependencies
-npm install
+See `.claude/product-marketing-context.md` for complete positioning, messaging, and brand guidelines.
 
-# Run development server
-npm run dev
+## Marketing Skills
 
-# Run tests
-npm test
-
-# Build for production
-npm run build
-
-# Lint code
-npm run lint
-```
+This repo includes 25 marketing skills in `.claude/skills/` for tasks like:
+- Copywriting and copy editing
+- Page and signup CRO
+- SEO audits and schema markup
+- Email sequences
+- Pricing and launch strategy
+- A/B testing and analytics
 
 ## Project Structure
 
-<!-- TODO: Document your directory structure -->
 ```
 /
-├── src/           # Source code
-├── tests/         # Test files
-├── docs/          # Documentation
-└── ...
+├── .claude/
+│   ├── product-marketing-context.md   # Core positioning & messaging
+│   └── skills/                        # Marketing skill symlinks
+├── .agents/
+│   └── skills/                        # Full marketing skill files
+└── CLAUDE.md                          # This file
 ```
 
-## Development Guidelines
+## Guidelines
 
-- Follow existing code style and patterns
-- Write tests for new features
-- Keep commits focused and descriptive
-
-## Important Notes
-
-<!-- TODO: Add any project-specific notes, gotchas, or conventions -->
+- Always reference `.claude/product-marketing-context.md` before creating marketing content
+- Maintain professional but approachable tone
+- Focus on consistency and partnership messaging (not one-off projects)
+- Avoid words like "viral," "cheap," or "quick turnaround"
